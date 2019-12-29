@@ -1,0 +1,86 @@
+.header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1010;
+}
+/* .picture{
+    margin-left: 1%;
+    margin-right: 1%;
+} */
+.picture2{
+    font-size: 1.5em;
+    position: absolute;
+    margin-left: 85%;
+    font-weight: bolder;
+
+}
+.picture3{
+    position: relative;
+}
+.top1{
+    margin-left: 5%;
+    height: 70px;
+    margin-right: 5%;
+    position: relative;
+}
+.top2{
+    font-size: 3em;
+    position: absolute;
+    color: rgb(0, 119, 168);
+}
+.top3{
+    font-size: 3em;
+    margin-left: 15%;
+    position: absolute;
+    color: rgb(0, 119, 168);
+}
+.top4{
+    font-size: 1.5em;
+    position: absolute;
+    margin-left: 17.5%;
+    margin-top: 1.2%;
+    margin-right: 20%;
+    color: rgb(0, 119, 168);
+}
+.top5{
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: rgb(0,119,168);
+    width: 98%;
+    height: 2px;
+}
+.passageall{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.passage{
+    margin:1%;
+}
+.passageimg{
+    width: 50%;
+    margin-left: 7%;
+    margin-top: 3%;
+    float: left;
+}
+.passageword1{
+    font-size: 5em;
+    color: rgb(0, 119, 168);
+    float: right;
+    margin-right: 20%;
+    margin-top: 20%;
+
+}
+.passageword2{
+    font-size: 2em;
+    color: rgb(0, 119, 168);
+    float: right;
+    margin-right: 8%;
+}
+.pagenumber{
+    margin-left: 48%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}

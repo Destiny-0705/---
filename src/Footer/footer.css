@@ -1,0 +1,87 @@
+/* 网站底部 */
+.footer{
+    height: 15em;
+    background-color:black;
+    display: flex;
+    color:white;
+}
+.footer1{
+    color:white;
+    margin-left: 7.5%;
+    margin-top: 1%;
+}
+.footer11{
+    color:white;
+    margin-top: 1%;
+}
+.footer12{
+    color:white;
+}
+.footer2{
+    color:white;
+    margin-left: 9%;
+    margin-top: 1%;
+}
+.footer21{
+    color:white;
+    margin-top: 1%;
+}
+.footer22{
+    color:white;
+}
+.footer23{
+    color:white;
+    font-size: 125%;
+}
+.footer24{
+    color:white;
+    font-size: 125%;
+}
+.footer25{
+    color:white;
+    font-size: 125%;
+}
+.footer26{
+    color:white;
+    font-size: 125%;
+}
+.footer3{
+    color:white;
+    margin-left: 9%;
+    margin-top: 1%;
+}
+.footer31{
+    color:white;
+    margin-top: 1%;
+}
+.footer32{
+    color:white;
+}
+.footer33{
+    color:white;
+    font-size: 125%;
+}
+.footer34{
+    color:white;
+    font-size: 125%;
+}
+.footer35{
+    color:white;
+    font-size: 125%;
+}
+.footer36{
+    color:white;
+    font-size: 125%;
+}
+.footer4{
+    color:white;
+    margin-left: 17%;
+    margin-top: 3%;
+}
+.footer41{
+    color:white;
+    margin-top: 1%;
+}
+.footer42{
+    color:white;
+}

@@ -1,0 +1,98 @@
+.all{
+    height: 100%;
+    position: relative;
+}
+.header{
+    position: relative;
+    height: 30%;
+}
+.underline{
+    position: relative;
+    margin-top: 10px;
+    font-size: 2px;
+}
+.background{
+    /* position: absolute; */
+}
+.content{
+    position: relative;
+    background-image: url(../imgs/register-background.jpg);
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    /* margin-top: 15px; */
+}
+.content2{
+    width: 80%;
+    height: 500px;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 5%;
+    background-color: white;
+}
+.e{
+    margin-top: 67px;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+.z{
+    width: 30%;
+    height: 46px;
+    margin-right: 5%;
+}
+.f{
+    margin-top: 30px;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.y{
+    width: 16.5%;
+    height: 46px;
+    margin-right: 2%;
+}
+
+.y2{
+    height: 40px;
+}
+.g{
+    margin-top: 30px;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.w{
+    width: 30%;
+    height: 46px; 
+    margin-right: 2%;
+}
+.i{
+    margin-top: 30px;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.u{
+    width: 30%;
+    height: 46px;
+    margin-right: 5%;
+}
+
+/* .j{
+    margin-top: 30px;
+    font-size: 40px;
+    height: 300px;
+    text-align: center;
+} */
+
+.button{
+    margin-top: 30px;
+    font-size: 20px;
+    width: 30%;
+    margin-left: 35.5%;
+}

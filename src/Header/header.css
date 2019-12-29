@@ -1,0 +1,58 @@
+/* 网页上部 */
+.header{
+    height: 5em;
+    background-color: white;
+    display: flex;
+    color:rgb(133, 133, 0);
+    margin-left: 3%;
+    margin-right: 3%;
+    opacity: 0.8;
+    /*毛玻璃效果
+     filter: blur(3px); */
+}
+.header1{
+    font-size: 1.4em;
+    margin-left: 7%;
+    color: rgb(0,119,167);
+    margin-top: 1.4%;
+}
+.header2{
+    font-size: 1.4em;
+    margin-left: 1%;
+    color: rgb(0, 119, 167);
+    margin-top: 1.4%;
+}
+.header31{
+    font-size: 1em;
+    color: rgb(0, 119, 167);
+    margin-top: 1.2%;
+}
+.header4{
+    font-size: 1.5em;
+    font-weight: 2em;
+    margin-left: 1%;
+    color: rgb(0, 119, 167);
+    margin-top: 1.4%;
+}
+.header3{
+    margin-left: 12%;
+    color: rgb(0, 119, 167);
+    margin-top: 1.6em;
+}
+.logo{
+    margin-left: 6%;
+}
+.searchall{
+    margin-left: 11%;
+    height: 3.5em;
+}
+.search{
+    height: 100%;;
+    width: 130%;
+    margin-top: 6%;
+}
+.button{
+    margin-top:1.3%;
+    margin-left: 5%;
+
+}

@@ -1,0 +1,175 @@
+.all{
+    background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+    height:100px;
+    
+}
+
+.a{
+    height: 100px;
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+    left: 50px;
+}
+.zwl{
+    height: 75px;
+}
+
+.b{
+    color: rgb(0, 119, 167);
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.c{
+    color:  rgb(0, 119, 167);
+    font-size: 30px;
+    margin-top: 20px;
+}
+.d{
+    color: rgb(0, 119, 167);
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.e{
+    position: relative;
+    right: 100px;
+    
+    
+}
+
+.ytx{
+    width:150px;
+    margin-top: 30px;
+    height: 40px;
+    font-size: 20px;
+    color: rgb(0, 119, 167);
+}
+
+.f{
+    color:  rgb(0, 119, 167);
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.lyr{
+    height: 450px;
+    width: 900px;
+    
+}
+
+.H{
+    position: relative;
+    left: 200px;
+    height:100px;
+}
+.h{
+    font-size: 40px;
+    color: darkorchid;
+}
+
+.i{
+    width:500px;
+    height: 100px;
+    font-size: 20px;
+    color: darkorchid;
+    margin-top: 25px;
+    position: relative;
+    right:50px;
+}
+
+.j{
+    width: 200px;
+}
+
+.k{
+    width:500px;
+    height: 75px;
+    font-size: 20px;
+    color: darkorchid;
+    position: relative;
+    right:50px;
+    bottom:20px;
+}
+.l{
+    width:400px;
+    font-size: 20px;
+    color: darkorchid;
+    position: relative;
+    right: 80px;
+    bottom: 50px;
+}
+.m{
+    width: 300px;
+    height: 100px;
+    position: relative;
+    top: 40px;
+    left: 10px;
+    
+}
+.in{
+    background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+    position: relative;
+    top: 1px;
+    height: 450px;  
+}
+.g{
+    height:450px;
+}
+.n{
+    width:900px;
+}
+.o{
+    width: 900px;
+   height: 500px;
+    font-size: 30px;
+    color:blue;
+}
+
+.p{
+    width: 600px;
+    height: 300px;
+    position: relative;
+    top: 130px;
+    
+}
+
+.q{
+    width: 900px;
+   height: 500px;
+    font-size: 30px;
+    color:blue;
+}
+
+.r{
+    width: 600px;
+    height: 300px;
+    position: relative;
+    top: 130px;
+    
+}
+
+
+.s{
+    width: 900px;
+   height: 500px;
+    font-size: 30px;
+    color:blue;
+
+}
+
+.t{
+    width: 600px;
+    height: 300px;
+    position: relative;
+    top: 130px;
+    
+}
+.z{
+    position: relative;
+    left: 20%;
+}
+.brave{
+    background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+}

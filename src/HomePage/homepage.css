@@ -1,0 +1,12 @@
+/* 主页 */
+/* .homepage1{
+}
+.background{
+} */
+.header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1010;
+}

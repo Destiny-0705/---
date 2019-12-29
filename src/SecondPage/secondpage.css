@@ -1,0 +1,123 @@
+/* 旅游心得界面 */
+.header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1010;
+}
+.secondpage1{
+    width:100%;
+    height: 100%;
+    position: relative;
+}
+/* .picture{
+
+} */
+.picture2{
+    font-size: 1.5em;
+    position: absolute;
+    margin-left: 85%;
+    font-weight: bolder;
+
+}
+.picture3{
+    position: relative;
+}
+.top1{
+    margin-left: 5%;
+    height: 70px;
+    margin-right: 5%;
+    position: relative;
+}
+.top2{
+    font-size: 3em;
+    position: absolute;
+    color: rgb(0, 119, 168);
+}
+.top3{
+    font-size: 3em;
+    margin-left: 15%;
+    color: rgb(0, 119, 168);
+    position: absolute;
+}
+.top4{
+    font-size: 1.5em;
+    position: absolute;
+    margin-left: 17.5%;
+    margin-top: 1.2%;
+    margin-right: 20%;
+    color: rgb(0, 119, 168);
+}
+.top5{
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: rgb(0,119,168);
+    width: 98%;
+    height: 2px;
+}
+.top6{
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: rgb(0, 119, 168);
+    width: 98%;
+    height: 2px;
+}
+.tog{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.left1{
+    width: 24%;
+    height: 100%;
+    background-color: rgb(219, 254, 255);
+    margin-left: 1%;
+    margin-top: 3.5%;
+}
+.left11{
+    font-size: 200%;
+    text-align: center;
+    color: rgb(0, 119, 168);
+}
+.left1101{
+    color: rgb(0, 119, 168);
+}
+.left20{
+    width: 25%;
+}
+.left21{
+    margin: 5%;
+}
+.left22{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 1%;
+    font-size: 130%;
+    color: rgb(0, 119, 168);
+}
+.left23{
+    margin-left: 10%;
+    font-size: 200%;
+    margin-bottom: 5%;
+    color: rgb(0, 119, 168);
+}
+
+.right1{
+    width: 73%;
+    height: 100%;
+    /* background-color: green; */
+
+    flex: 1;
+}
+.right{
+    height: 100%;
+}
+.pagenumber{
+    position: absolute;
+    margin-left: 62%;
+    margin-top: 170%;
+}
+.footer{
+
+}
