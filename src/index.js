@@ -12,8 +12,10 @@ import { omit } from 'rc-mentions/lib/util';
 import ThirdPage from './ThirdPage/thirdpage';
 import About from './About/about';
 import Content1 from './page1-content/content1';
-import Header2 from './Header for register/header2'
+import Header2 from './Header for register/header2';
 import Header3 from './Header for login/header3';
+import Header4 from './Header for homepage/header4';
+import Goods from './Goods/goods';
 class LoginPage extends React.Component{
     render(){
         return(
@@ -31,7 +33,9 @@ class LoginPage extends React.Component{
                         <Route path="/homepage" component={HomePage}></Route>
                         <Route path="/content1" component={Content1}></Route>
                         <Route path="/header2" component={Header2}></Route>  
-                        <Route path="/header3" component={Header3}></Route>                 
+                        <Route path="/header3" component={Header3}></Route>         
+                        <Route path="/header4" component={Header4}></Route>  
+                        <Route path="/goods" component={Goods}></Route>          
                     </Switch>
                 </BrowserRouter>
             </div>
