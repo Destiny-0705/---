@@ -31,7 +31,7 @@ export default class Header4 extends React.Component{
     return(
       <div className={Header4Css.header}>
         <div className={Header4Css.logo}>
-          <img src={require('../imgs/logo.jpg')} alt="" width="94%" height="105px"/>
+          <img src={require('../imgs/logo.jpg')} alt="" width="94%" height="109px"/>
         </div>
         <Link to="/homepage" className={Header4Css.header1}><div>
           首页
@@ -49,13 +49,13 @@ export default class Header4 extends React.Component{
         <div className={Header4Css.header4}>
           |
         </div>
-        <Link to="/thirdpage"  className={Header4Css.header2}><div>
+        <Link to="/goods"  className={Header4Css.header2}><div>
           旅购
         </div></Link>
         <div className={Header4Css.header4}>
           |
         </div>
-        <Link to="/goods"  className={Header4Css.header2}>
+        <Link to="/login"  className={Header4Css.header2}>
           <div>
             个人主页
           </div>

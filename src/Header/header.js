@@ -31,7 +31,7 @@ export default class Header extends React.Component{
     return(
       <div className={HeaderCss.header}>
         <div className={HeaderCss.logo}>
-          <img src={require('../imgs/logo.jpg')} alt="" width="94%" height="68px"/>
+          <img src={require('../imgs/logo.jpg')} alt="" width="100%" height="40px"/>
         </div>
         <Link to="/homepage" className={HeaderCss.header1}><a >
           首页

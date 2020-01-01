@@ -4,6 +4,8 @@ import Header from '../Header/header';
 import Footer from '../Footer/footer';
 import background from '../imgs/巴黎/bali1.jpg';
 import Header4 from '../Header for homepage/header4';
+import Zoumadeng2 from '../zoumadeng for homepage/zoumadeng2';
+import { Button } from 'antd';
 
 
 
@@ -17,24 +19,20 @@ export default class HomePage extends React.Component{
         return(
             <div className={HomePageCss.homepage1}>
                     <div className={HomePageCss.header}><Header4/></div>
-                    
-                    <div className={HomePageCss.background} style={{backgroundImage:`url(${background})`}}>
-                    <img src={background} width="100%" height='100%' / >
-                {/* <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br> */}
-                {/* <Footer/> */}
-            </div>
+                    <div className={HomePageCss.background}>
+                    <Zoumadeng2 className={HomePageCss.zoumadeng}></Zoumadeng2>
+                    </div>
+                    <div className={HomePageCss.content}>
+                        <div className={HomePageCss.content2}>
+                            <div className={HomePageCss.search}>
+                                <input type="text" className={HomePageCss.search1} placeholder="搜目的地/攻略/心得/路线/酒店"></input>
+                            </div>
+                            <Button type="primary" icon="search" className={HomePageCss.button}>
+                                搜索
+                            </Button>
+                        </div>
+                    </div>
+                    <div className={HomePageCss.Footer}><Footer/></div>
             </div>
         )
     }

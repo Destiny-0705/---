@@ -17,11 +17,11 @@ export default class Login extends React.Component {
         })
     }
     upload=()=>{
-        var xhr = new XMLHttpRequest()
         var data={
             "username":this.state.username,
             "password":this.state.password
         }
+    }
         // open连接
         xhr.open("post","/user/login")
         // 配置响应函数
@@ -38,6 +38,28 @@ export default class Login extends React.Component {
         // 发送数据
         xhr.send(data)
     }
+
+
+    // fetch
+    // fetch("/user/login",{
+    //     method:"post",
+    //     headers：{
+    //         "content-type"
+    //     }
+    //     body:JSON.stringity(data)
+    // }).then(response=>response.json())
+    // .then(result=>{
+    //     if(result.state==2){
+    //         message.info("错误")
+    //     }else if{
+    //         message.info("正确")
+    //     }
+    // }).catch(e=>{
+    //     message.error(e);
+    // })
+
+
+
     render() {
         return (
             <div>
@@ -48,10 +70,10 @@ export default class Login extends React.Component {
                                 <div>
                                     {/* <div className={login.login01}>用户登录</div> */}
                                     <div className={login.login02}>
-                                        <Input placeholder="会员名" className={login.login021}name="username" value={this.state.username} onChange={e=>this.ChangeValue(e)}></Input>
+                                        <Input placeholder="会员名" className={login.login021}name="username" ></Input>
                                     </div>
                                     <div className={login.login03}>
-                                        <Input placeholder="密码" className={login.login031} name="password" value={this.state.password} onChange={e=>this.ChangeValue(e)}></Input>
+                                        <Input placeholder="密码" className={login.login031} name="password" ></Input>
                                     </div>
                                 </div>
                                 <div className={login.d}>
