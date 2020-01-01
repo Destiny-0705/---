@@ -1,7 +1,8 @@
 import React from 'react';
-import {Button, Input, Row, Col , message} from 'antd';
 import {Link} from 'react-router-dom'
 import Header3 from '../Header for login/header3';
+import { Pagination } from 'antd';
+import{Button,Input,Row,Col,message} from 'antd';
 
 var img1 =require('../imgs/夜景3.jpg')
 var login = require('./login.css')
@@ -17,48 +18,49 @@ export default class Login extends React.Component {
         })
     }
     upload=()=>{
+        var xhr = new XMLHttpRequest()
         var data={
             "username":this.state.username,
             "password":this.state.password
         }
-    }
-        // open连接
-        xhr.open("post","/user/login")
-        // 配置响应函数
-        xhr.onreadystatechange=function(){
-            if(xhr.readyState==4){
-                if(xhr.status==200){
-                    message.info(xhr.responseText)
-                    console.log(xhr.responseText)
-                }else{
-                    message.info(xhr.status)
-                }
-            }    
-        }
-        // 发送数据
-        xhr.send(data)
-    }
+    //     // open连接
+    //     xhr.open("post","/user/login")
+    //     // 配置响应函数
+    //     xhr.onreadystatechange=function(){
+    //         if(xhr.readyState==4){
+    //             if(xhr.status==200){
+    //                 message.info(xhr.responseText)
+    //                 console.log(xhr.responseText)
+    //             }else{
+    //                 message.info(xhr.status)
+    //             }
+    //         }    
+    //     }
+    //     // 发送数据
+    //     xhr.send(data)
+    // }
 
 
     // fetch
-    // fetch("/user/login",{
-    //     method:"post",
-    //     headers：{
-    //         "content-type"
-    //     }
-    //     body:JSON.stringity(data)
-    // }).then(response=>response.json())
-    // .then(result=>{
-    //     if(result.state==2){
-    //         message.info("错误")
-    //     }else if{
-    //         message.info("正确")
-    //     }
-    // }).catch(e=>{
-    //     message.error(e);
-    // })
+    fetch("/user/login",{
+        method:"post",
+        headers:{
+            "Content-Type":"application/json"
+        },
+        body:JSON.stringify(data)
+    }).then(response=>response.json())
+    .then(result=>{
+        if(result.state==2){
+            message.info("账号或密码错误")
+        }else if(result.state==1){
+            message.info("欢迎登录环球旅游网")
+            this.props.history.push("/personalpage")
+        }
+    }).catch(e=>{
+        message.error(e);
+    })
 
-
+    }
 
     render() {
         return (

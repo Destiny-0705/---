@@ -10,7 +10,7 @@
 }
 .header1{
     font-size: 1.5em;
-    margin-left: 7%;
+    margin-left: 90px;
     color: rgb(10, 124, 174);
     margin-top: 2.2%;
     font-family: "黑体";
@@ -40,11 +40,30 @@
     color: rgb(10, 124, 174);
     margin-top: 2em;
 }
+.header7{
+    
+}
+.header5{
+    font-size: 20px;
+    color: rgb(10, 124, 174);
+    margin-top: 40px;
+    margin-left: 10px;
+    font-family: "黑体";
+    position: relative;
+}
+.header6{
+    font-size: 40px;
+    color: rgb(10, 124, 174);
+    margin-top: 10px;
+    margin-left: 40px;
+    font-family: "黑体";
+    position: relative;
+}
 .logo{
     margin-left: 6%;
 }
 .searchall{
-    margin-left: 11%;
+    margin-left: 100px;
     height: 3.5em;
 }
 .search{

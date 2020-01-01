@@ -31,41 +31,41 @@ export default class Header extends React.Component{
     return(
       <div className={HeaderCss.header}>
         <div className={HeaderCss.logo}>
-          <img src={require('../imgs/logo.jpg')} alt="" width="100%" height="40px"/>
+          <img src={require('../imgs/logo.jpg')} alt="" width="100%" height="80px"/>
         </div>
-        <Link to="/homepage" className={HeaderCss.header1}><a >
+        <Link to="/homepage" className={HeaderCss.header1}><div>
           首页
-        </a></Link>
-        <a className={HeaderCss.header4}>
+        </div></Link>
+        <div className={HeaderCss.header4}>
           |
-        </a>
-        <div className={HeaderCss.header2}><a>
+        </div>
+        <div className={HeaderCss.header2}><div>
           <Dropdown overlay={menu}>
-            <a className="ant-dropdown-link" href="#">
-              旅行家 <Icon type="down" />
-            </a>
+            <div className="ant-dropdown-link" href="#">
+              去旅游 <Icon type="down" />
+            </div>
           </Dropdown>,
-        </a></div>
-        <a className={HeaderCss.header4}>
+        </div></div>
+        <div className={HeaderCss.header4}>
           |
-        </a>
-        <Link to="/thirdpage"  className={HeaderCss.header2}><a>
-          旅行记录
-        </a></Link>
-        <a className={HeaderCss.header4}>
+        </div>
+        <Link to="/goods"  className={HeaderCss.header2}><div>
+          旅购
+        </div></Link>
+        <div className={HeaderCss.header4}>
           |
-        </a>
-        <Link to="/goods"  className={HeaderCss.header2}>
-          <a>
-
-        </a>
+        </div>
+        <Link to="/login"  className={HeaderCss.header2}>
+          <div>
+          个人主页
+        </div>
         </Link>
             {/* 除主页部分 */}
             <div className={HeaderCss.searchall}>
             <input type="text" className={HeaderCss.search} placeholder="搜目的地/攻略/心得/路线/酒店"></input>
             </div>
             <div className={HeaderCss.button}>
-              <Button type="primary" icon="search">
+              <Button type="primary" icon="search" className={HeaderCss.button1}>
                 搜索
               </Button>
             </div>
